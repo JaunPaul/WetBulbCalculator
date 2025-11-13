@@ -195,15 +195,15 @@
 							</p>
 						</div>
 
-						<div class="grid gap-4 text-sm text-stone-400 dark:text-stone-300 sm:grid-cols-2">
-							<div class="rounded-2xl border border-stone-100/80 bg-white px-4 py-3 dark:border-stone-700/60 dark:bg-stone-800/40">
-								<p class="text-xs uppercase tracking-[0.3em] text-rock-spray-950/90 dark:text-stone-500">
+						<div class="grid gap-4 text-sm text-stone-400 sm:grid-cols-2">
+							<div class="rounded-2xl border border-stone-100/80 bg-white px-4 py-3 ">
+								<p class="text-xs uppercase tracking-[0.3em] text-rock-spray-950/90 ">
 									Inputs
 								</p>
-								<p class="mt-2 font-medium text-rock-spray-600 dark:text-stone-300">
+								<p class="mt-2 font-medium text-rock-spray-600 ">
 									{formatNumber(temperature)} °C
 								</p>
-								<p class="font-medium text-rock-spray-600 dark:text-stone-300">
+								<p class="font-medium text-rock-spray-600 ">
 									{formatNumber(humidity)} %
 								</p>
 							</div>
@@ -222,7 +222,7 @@
 		</main>
 
 		<footer class="mt-12 text-center text-xs text-rock-spray-950/90 dark:text-stone-500">
-			<span>Designed by Edge Works · <a href="https://theedge.works" target="_blank">theedge.works</a> · Built with SvelteKit & Tailwind CSS</span>
+			<span>Designed by Edge Works · <a href="https://theedge.works" target="_blank">theedge.works</a></span>
 		</footer>
 	</div>
 </div>
