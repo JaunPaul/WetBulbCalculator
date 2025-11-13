@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+
+:global(:root) {
+	color-scheme: light dark;
+}
+
+:global(body) {
+	@apply min-h-svh bg-white font-sans text-slate-900 antialiased transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100;
+}
